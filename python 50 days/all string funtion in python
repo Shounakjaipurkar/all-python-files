@@ -1,0 +1,45 @@
+capitalize()	Converts the first character to uppercase.
+casefold()	Converts the string to lowercase, more aggressive than lower().
+center(width, char)	Centers the string with specified width and fills with a given character (default is space).
+count(substring, start, end)	Counts occurrences of a substring in the string.
+encode(encoding, errors)	Encodes the string into a specified format (e.g., UTF-8).
+endswith(suffix, start, end)	Checks if the string ends with the specified suffix.
+expandtabs(tabsize)	Replaces tab characters with spaces.
+find(substring, start, end)	Returns the index of the first occurrence of a substring, or -1 if not found.
+format(*args, **kwargs)	Formats the string using placeholders.
+format_map(mapping)	Similar to format(), but takes a dictionary for formatting.
+index(substring, start, end)	Like find(), but raises an error if the substring is not found.
+isalnum()	Checks if the string consists only of alphanumeric characters (letters and numbers).
+isalpha()	Checks if the string consists only of letters.
+isascii()	Checks if all characters in the string are ASCII.
+isdecimal()	Checks if all characters are decimal digits (0-9).
+isdigit()	Checks if all characters are digits (0-9, including superscripts/subscripts).
+isidentifier()	Checks if the string is a valid Python identifier.
+islower()	Checks if all characters are lowercase.
+isnumeric()	Checks if all characters are numeric (including fractions, superscripts, etc.).
+isprintable()	Checks if all characters are printable.
+isspace()	Checks if the string contains only whitespace.
+istitle()	Checks if the string follows title case.
+isupper()	Checks if all characters are uppercase.
+join(iterable)	Joins elements of an iterable (list, tuple) into a string.
+ljust(width, char)	Left-aligns the string and fills with a specified character.
+lower()	Converts all characters to lowercase.
+lstrip(chars)	Removes leading whitespace or specified characters.
+maketrans(x, y, z)	Creates a translation table for translate().
+partition(separator)	Splits the string into a 3-tuple: before separator, separator, after separator.
+replace(old, new, count)	Replaces occurrences of a substring with another.
+rfind(substring, start, end)	Finds the last occurrence of a substring.
+rindex(substring, start, end)	Like rfind(), but raises an error if the substring is not found.
+rjust(width, char)	Right-aligns the string and fills with a specified character.
+rpartition(separator)	Like partition(), but searches from the right.
+rsplit(separator, maxsplit)	Splits the string from the right into a list.
+rstrip(chars)	Removes trailing whitespace or specified characters.
+split(separator, maxsplit)	Splits the string into a list based on a separator.
+splitlines(keepends)	Splits a string at line breaks (\n, \r\n).
+startswith(prefix, start, end)	Checks if the string starts with the given prefix.
+strip(chars)	Removes leading and trailing whitespace or specified characters.
+swapcase()	Swaps uppercase and lowercase characters.
+title()	Converts the string to title case (each word capitalized).
+translate(mapping)	Replaces characters based on a translation table.
+upper()	Converts all characters to uppercase.
+zfill(width)	Pads the string with zeros on the left.
